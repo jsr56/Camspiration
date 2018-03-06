@@ -3,32 +3,68 @@
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link href="bs/css/bootstrap.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Pick-me-up: Cambridge</title>
     </head>
+  <style>
+  body {
+      position: relative;
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #0B0B3B;}
+ #section2 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+ #section3 {padding-top:50px;height:500px;color: #fff; background-color: #08298A;}
+ </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <nav class="navbar navbar-inverse" "navbar-fixed-top​">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-          </button> <a href="#" class="navbar-brand">Get Your Fix</a> </div> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
-            <ul class="nav navbar-nav"> <li class="active"><a href="#">About Us</a></li> <li><a href="#">Contact Us</a></li> </ul> </div> </div> </nav>
-      <div class='jumbotron'>
-          <div class="container">
-            <body>
-                <h1> About Us </h1>
-                <h2 title="Turn that frown upside down!"> <em>Pick-me-up</em> : Your trusty cocktail of motivation </h2>
-                <h4 title="Don't worry we're just like you!">By Camspiration: Henna Noor, Sakinah Merali, and Jai Rane</h4>
-                <p> We are creating a motivational self-care page for Cambridge Students.
-                We will be curating different forms of media (comfort food recipes, songs,
-                inspirational quotes, recommended reads etc) to provide a one-stop hub for
-                students seeking comfort after a rough day. Each TLC package will be
-                personalized to address different situations every Cambridge student has experienced
-                at least once for eg. 'My supervision went badly',
-                'I feel like I don't belong here', 'I'm homesick' etc
+<nav class="navbar navbar-inverse navbar-fixed-top">
+ <div class="container-fluid">
+   <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+     </button>
+     <a class="navbar-brand" href="#">Pick-me-Up: Cambridge</a>
+   </div>
+   <div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav">
+         <li><a href="#section1">Welcome!</a></li>
+         <li><a href="#section2">How are you feeling today?</a></li>
+         <li><a href="#section3">About Us</a></li>
+       </ul>
+     </div>
+   </div>
+ </div>
+</nav>
 
-                We also want to add an option for site visitors to add their own quotes
-                and media to the website so everything can ultimately by crowd-sourced.</p>
-            </body>
+<div id="section1" class="container-fluid">
+ <h1>Pick-me-up</h1>
+ <p> Logo, media contact, and short intro here</p>
+</div>
+<div id="section2" class="container-fluid">
+ <h1>How are you feeling today?</h1>
+ <p> Images of sad/happy face to link to Sakinah and Henna's pages</p>
+</div>
+<div id="section3" class="container-fluid">
+ <h1>About Us</h1>
+ <h2 title="Turn that frown upside down!"> <em>Pick-me-up</em> : Your trusty cocktail of motivation </h2>
+ <h4 title="Don't worry we're just like you!">By Camspiration: Henna Noor, Sakinah Merali, and Jai Rane</h4>
+ <p>We are creating a motivational self-care page for Cambridge Students.
+ We will be curating different forms of media (comfort food recipes, songs,
+ inspirational quotes, recommended reads etc) to provide a one-stop hub for
+ students seeking comfort after a rough day. Each TLC package will be
+ personalized to address different situations every Cambridge student has experienced
+ at least once for eg. 'My supervision went badly',
+ 'I feel like I don't belong here', 'I'm homesick' etc
+
+ We also want to add an option for site visitors to add their own quotes
+ and media to the website so everything can ultimately by crowd-sourced.</p>
+</div>
+    </body>
           </div>
 </html>
