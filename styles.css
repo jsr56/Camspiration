@@ -1,13 +1,13 @@
-h1 {
-    font-family: Arial;
-    color: black;
+.jumbotron {
+  min-height: 400px;
 }
-h2 {
-    font-family: Arial;
-    color: black;
+
+*{
+  font-family: Trebuchet MS, sans-serif
 }
-body {
-    font-family: Arial;
-    color: black;
-    background-color: blue;
+#myNavbar {
+  font-size: x-large
+}
+#mybrandbar {
+  font-size: xx-large
 }
