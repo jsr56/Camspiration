@@ -1,13 +1,16 @@
 .jumbotron {
-  min-height: 400px;
+  min-height: 200px;
 }
 
 *{
-  font-family: Trebuchet MS, sans-serif
+  font-family: Trebuchet MS, sans-serif;
 }
 #myNavbar {
   font-size: x-large
 }
 #mybrandbar {
   font-size: xx-large
+}
+.carousel-inner {
+  max-height: 600px !important;
 }
