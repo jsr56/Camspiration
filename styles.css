@@ -2,14 +2,32 @@
   min-height: 200px;
 }
 
-*{
+#mybrandbar {
+  padding-top: 25px;
+  font-size: 480%;
+  font-family: 'Just Another Hand', cursive;
+}
+
+#myNavbar {
+  padding-top: 10px;
+  font-size: x-large;
+  font-family: 'Bad Script', cursive;
+}
+
+#section1 {
   font-family: Trebuchet MS, sans-serif;
 }
-#myNavbar {
-  font-size: x-large
+
+#section2 {
+  font-family: Trebuchet MS, sans-serif;
 }
-#mybrandbar {
-  font-size: xx-large
+
+#section3 {
+  font-family: Trebuchet MS, sans-serif;
+}
+
+#HCBcommentbox {
+  font-family: Trebuchet MS, sans-serif;
 }
 
 .carousel-inner {
