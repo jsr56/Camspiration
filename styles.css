@@ -39,5 +39,5 @@
 .carousel-inner > .item > a > img {
   display: block;
   max-height: 500px !important;
-  margin: auto
+  margin: auto;
 }
