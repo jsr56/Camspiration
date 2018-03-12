@@ -9,3 +9,18 @@
   font-size: x-large;
   font-family: 'Bad Script', cursive;
 }
+
+.carousel-inner {
+  max-height: 700px !important;
+  width: 100%;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-height: 500px !important;
+  margin: auto;
+}
