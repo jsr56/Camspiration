@@ -11,14 +11,21 @@
 }
 #brownies {
   background-image: url("classic-chocolate-brownies.jpg");
+  background-size: cover;
+  border-style: dashed;
+  border-width: 20px;
 }
 #oreos {
   background-image: url("oreo truffles.jpeg");
   background-size: cover;
-  color: #6495ED;
+  border-style: double;
+  border-width: 20px;
+  color: #fff;
 }
 #superfood {
   background-image: url("superfood.jpeg");
   background-size: cover;
-  color: #DB7093;
+  border-style: dotted;
+  border-width: 30px;
+  color: #fff;
 }
